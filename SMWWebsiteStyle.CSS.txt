@@ -1,0 +1,153 @@
+
+body {
+  background-image: url("MountainCrop.jpg");
+  background-size: 100% 150%;
+  background-repeat: no-repeat;
+}
+
+
+	.serif {
+ 		 font-family: "Times New Roman", Times, serif;
+		}
+
+.btn-group
+
+	#first{
+		margin-left: 150px;
+	}
+
+	.button {
+		display: inline-block;
+  		border-radius: 4px;
+  		background-color: #ADD8E6;
+  		border: none;
+  		text-align: center;
+  		font-size: 20px;
+  		padding: 10px;
+  		width: 200px;
+  		transition: all 0.5s;
+  		cursor: pointer;
+  		margin-top: 10px;
+  		margin-bottom: 1px;
+  		margin-left: 1px;
+  		margin-right: 1px;
+		}
+
+	.button span {
+ 		cursor: pointer;
+  		display: inline-block;
+  		position: relative;
+  		transition: 0.5s;
+		}
+
+	.button span:after {
+  		content: '\00bb';
+  		position: absolute;
+  		opacity: 0;
+  		top: 0;
+  		right: -20px;
+  		transition: 0.5s;
+		}
+
+	.button:hover span {
+  		padding-right: 25px;
+		}
+
+	.button:hover span:after {
+  		opacity: 1;
+  		right: 0;
+		}	 
+
+div.absolute {
+  position: absolute;
+  top: 200px;
+  right: 0;
+  width: 1300px;
+  height: 200px;
+}
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #009900;
+  font-size: 24px
+
+}
+
+p {
+  text-indent: center;
+  text-align: center;
+  letter-spacing: 3px;
+  padding: 1px;
+  font-size: 18px
+}
+
+a {
+  text-decoration: none;
+  color: #008CBA;
+}
+
+
+#SamPic{
+	position: relative;	
+	bottom: 35px;	
+}
+		#fa{
+			position: relative;
+			left: 500px;
+		}
+		.fa {
+		  padding: 10px;
+		  font-size: 30px;
+		  width: 50px;
+		  text-align: center;
+		   		margin-top: 3px;
+		  		margin-bottom: 3px;
+		  		margin-left: 3px;
+		  		margin-right: 3px;
+
+		}
+
+		.fa:hover {
+		    opacity: 0.7;
+		}
+
+		.fa-facebook {
+		  background: #3B5998;
+		  color: white;
+		}
+
+		.fa-twitter {
+		  background: #55ACEE;
+		  color: white;
+		}
+
+
+		.fa-linkedin {
+		  background: #007bb5;
+		  color: white;
+		}
+
+
+		.fa-instagram {
+		  background: #125688;
+		  color: white;
+		}
+
+</head>
+
+
+
+	hr{
+		height: 1px;
+		 background-color: black;
+		border: none;
+	}
+
+	h1{
+		text-align: center;
+    	font-family: 'Charmonman';
+    	font-size: 22px;
+		font-size: 40px;
+		margin-bottom: 1px;
+		margin-top: 1px;
+	}
