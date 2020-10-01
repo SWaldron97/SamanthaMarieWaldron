@@ -1,0 +1,148 @@
+	body {
+	  background-image: url("MountainCrop.jpg");
+	  background-size: 100% 150%;
+	  background-repeat: no-repeat;
+	}
+
+	.serif {
+ 		 font-family: "Times New Roman", Times, serif;
+		}
+
+				.newspaper {
+		  column-count: 3;
+		  column-gap: 40px;
+		  column-rule: 1px solid lightblue;
+		}
+
+.btn-group
+
+	#first{
+		margin-left: 50px;
+	}
+
+	.button {
+		display: inline-block;
+  		border-radius: 4px;
+  		background-color: #ADD8E6;
+  		border: none;
+  		text-align: center;
+  		font-size: 20px;
+  		padding: 10px;
+  		width: 200px;
+  		transition: all 0.5s;
+  		cursor: pointer;
+  		margin-top: 10px;
+  		margin-bottom: 1px;
+  		margin-left: 1px;
+  		margin-right: 1px;
+		}
+
+	.button span {
+ 		cursor: pointer;
+  		display: inline-block;
+  		position: relative;
+  		transition: 0.5s;
+		}
+
+	.button span:after {
+  		content: '\00bb';
+  		position: absolute;
+  		opacity: 0;
+  		top: 0;
+  		right: -20px;
+  		transition: 0.5s;
+		}
+
+	.button:hover span {
+  		padding-right: 25px;
+		}
+
+	.button:hover span:after {
+  		opacity: 1;
+  		right: 0;
+		}	 
+
+
+#Home{
+	color: #009900;
+}
+
+	hr{
+		height: 1px;
+		 background-color: black;
+		border: none;
+	}
+
+	h1{
+		text-align: center;
+    	font-family: 'Charmonman';
+    	font-size: 22px;
+		font-size: 40px;
+		margin-bottom: 1px;
+		margin-top: 30px;
+	}
+
+
+div.absolute {
+  position: absolute;
+  top: 200px;
+  right: 0;
+  width: 1300px;
+  height: 200px;
+}
+
+
+h2 {
+  text-align: center;
+  text-transform: none;
+  color: #009900;
+  font-size: 24px
+
+}
+
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #009900;
+  font-size: 20px
+
+}
+
+h4 {
+  text-align: center;
+  text-transform: none;
+  color: #009900;
+  font-size: 20px
+
+}
+
+
+
+p {
+  text-indent: center;
+  text-align: center;
+  letter-spacing: 3px;
+  padding: 1px;
+  font-size: 18px
+}
+
+a {
+  text-decoration: none;
+  color: #008CBA;
+}
+
+#PDFLink{
+	color:#009900;
+}
+
+#PDFViewer{
+    position: relative;
+    left: 250px;
+}
+
+
+#SamPic{
+	position: relative;	
+	bottom: 35px;	
+}
+
